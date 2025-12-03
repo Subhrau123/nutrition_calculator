@@ -1,0 +1,62 @@
+Dish,Calories,Protein_g,Carbs_g,Fat_g
+Chicken Biryani,150,9,18,5
+Veg Biryani,140,3,20,4
+Paneer Butter Masala,210,6,9,16
+Butter Chicken,240,12,8,18
+Dal Tadka,120,6,14,4
+Dal Fry,150,5,13,8
+Chole Masala,160,7,22,5
+Rajma Masala,140,6,20,3
+Sambar,70,3,10,2
+Rasam,30,1,5,0
+Idli,60,2,12,0.4
+Dosa,168,3,30,4
+Masala Dosa,215,3,28,9
+Uttapam,160,4,26,4
+Upma,130,3,22,4
+Pongal,140,3,20,5
+Poori,310,5,27,20
+Chapati,110,3,18,3
+Paratha,260,5,26,14
+Aloo Paratha,280,4,29,15
+Chicken Curry,180,15,5,11
+Mutton Curry,240,17,6,17
+Fish Curry,150,14,4,9
+Egg Curry,140,10,4,8
+Paneer Tikka,190,14,7,12
+Chicken Tikka,160,20,3,6
+Tandoori Chicken,150,22,2,5
+Prawns Curry,155,18,3,7
+Vegetable Khichdi,120,3,20,3
+Lemon Rice,150,3,26,4
+Curd Rice,130,3,18,4
+Veg Pulao,135,3,22,4
+Jeera Rice,120,2,22,2
+Veg Fried Rice,150,3,24,4
+Chicken Fried Rice,165,9,22,5
+Vegetable Curry,90,2,12,3
+Aloo Gobi,110,3,14,5
+Bhendi Fry,140,2,9,10
+Baingan Bharta,120,2,10,8
+Palak Paneer,180,7,10,12
+Shahi Paneer,250,6,10,20
+Kadhai Paneer,210,6,9,16
+Pav Bhaji,185,4,22,10
+Vada Pav,280,6,35,12
+Samosa,260,4,30,14
+Kachori,300,4,32,15
+Gulab Jamun,320,4,45,12
+Rasgulla,180,4,36,1
+Jalebi,350,1,80,6
+Sooji Halwa,250,3,38,10
+Rava Kesari,240,3,40,8
+Moong Dal Halwa,270,6,30,12
+Kheer,200,5,30,6
+Fruit Custard,150,3,25,4
+Phirni,180,4,28,5
+Lassi,130,4,20,3
+Falooda,220,5,40,6
+Mango Shake,180,3,35,2
+Banana Shake,160,2,30,1
+Strawberry Shake,150,2,28,1
+Chocolate Shake,250,5,40,8
