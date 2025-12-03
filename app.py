@@ -226,8 +226,10 @@ def main():
             - Matplotlib → static bar chart (Unit V, shown in expander)
             - Plotly + Streamlit → interactive, real-world style web UI (Unit VI)
             """
+            st.caption("Created by Subhranil, Adeeeb, Rakesh"):
         )
 
 
 if __name__ == "__main__":
     main()
+
