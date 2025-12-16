@@ -10,7 +10,6 @@ st.set_page_config(
     layout="wide",
 )
 
-# ---------- DARK MODE CUSTOM THEME ----------
 st.markdown(
     """
     <style>
@@ -207,29 +206,16 @@ def main():
     st.plotly_chart(fig_plotly, use_container_width=True)
 
   
-    with st.expander("Show static Matplotlib chart (for syllabus)"):
+    with st.expander("Show static Matplotlib chart"):
         fig, ax = plt.subplots()
         ax.bar(nutrient_labels, per_serving_values)
         ax.set_ylabel("Amount per serving")
         ax.set_title(f"Nutrients for 1 serving of {row['Dish']}")
         st.pyplot(fig)
 
- 
-    with st.expander("Explanation (for viva/teacher)"):
-        st.write(
-            """
-            **Concepts used:**
-            - Variables, data types, expressions (Unit I)
-            - Functions (`load_dishes`, `main`), `if` conditions, loops (Unit II)
-            - String operations (`lower`, `contains`) and list-like behaviour in Pandas (Unit III)
-            - Pandas + CSV → tabular data handling (Unit V)
-            - Matplotlib → static bar chart (Unit V, shown in expander)
-            - Plotly + Streamlit → interactive, real-world style web UI (Unit VI)
-            """
-        )
-
 
 if __name__ == "__main__":
     main()
+
 
 
