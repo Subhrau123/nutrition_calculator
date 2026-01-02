@@ -123,14 +123,14 @@ def main():
     with col2:
         text_input_dish = st.text_input("Or type part of a dish name:")
 
-st.subheader("📸 Upload Food Image (Optional)")
+    st.subheader("📸 Upload Food Image (Optional)")
 
-uploaded_file = st.file_uploader(
+    uploaded_file = st.file_uploader(
     "Upload an image of food (jpg, png)",
     type=["jpg", "jpeg", "png"]
-)
+    )
 
-if uploaded_file is not None:
+    if uploaded_file is not None:
     st.image(uploaded_file, caption="Uploaded Food Image", use_column_width=True)
     st.info("Image uploaded successfully. Please select or type the food name below.")
 
@@ -227,6 +227,7 @@ if uploaded_file is not None:
 
 if __name__ == "__main__":
     main()
+
 
 
 
