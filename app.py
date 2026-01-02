@@ -131,8 +131,8 @@ def main():
     )
 
     if uploaded_file is not None:
-    st.image(uploaded_file, caption="Uploaded Food Image", use_column_width=True)
-    st.info("Image uploaded successfully. Please select or type the food name below.")
+        st.image(uploaded_file, caption="Uploaded Food Image", use_column_width=True)
+        st.info("Image uploaded successfully. Please select or type the food name below.")
 
    
     if text_input_dish.strip():
@@ -227,6 +227,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
